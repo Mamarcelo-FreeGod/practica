@@ -7,6 +7,7 @@
 </head>
 <body>
 
+    
     <div class="login-container">
         <h1>Iniciar Sesión</h1>
 
@@ -17,18 +18,9 @@
         <button onclick="iniciarSesion()">Entrar</button>
     </div>
 
-    <script>
-        function iniciarSesion() {
-            let usuario = document.getElementById("usuario").value;
-            let password = document.getElementById("password").value;
+    <script src="script.js"></script>
 
-            if(usuario === "" || password === ""){
-                alert("Por favor completa todos los campos");
-            } else {
-                alert("Inicio de sesión correcto");
-            }
-        }
-    </script>
+    
 
 </body>
 </html>
